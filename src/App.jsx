@@ -2,8 +2,8 @@ import React from "react";
 import Headline from "./Components/Headline";
 import Logo from "./Components/Logo";
 import Categories from "./Components/Categories";
-import NewsTopic from "./Components/NewsTopic";
 import Footer from "./Components/Footer/Footer";
+import Newslist from "./Components/News/Newslist";
 
 function App() {
     return (
@@ -18,12 +18,7 @@ function App() {
                 >
                     <Logo />
                     <Categories />
-                    <section className="flex gap-4 items-start w-full my-8">
-                        <div className="w-3/4">
-                            <NewsTopic />
-                        </div>
-                        <div></div>
-                    </section>
+                    <Newslist />
                 </section>
             </div>
             <Footer />
