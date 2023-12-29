@@ -1,9 +1,9 @@
 import React from "react";
-import Headline from "./Components/Headline";
+import Headline from "./Components/Headlines/Headline";
 import Logo from "./Components/Logo";
 import Categories from "./Components/Categories";
 import Footer from "./Components/Footer/Footer";
-import Newslist from "./Components/News/Newslist";
+import MoreNewsSection from "./Components/News/MoreNewsSection";
 
 function App() {
     return (
@@ -18,7 +18,7 @@ function App() {
                 >
                     <Logo />
                     <Categories />
-                    <Newslist />
+                    <MoreNewsSection />
                 </section>
             </div>
             <Footer />

@@ -6,8 +6,8 @@ import {
 } from "react-icons/fa";
 import Logo from "../Logo";
 import Subfooter from "./Subfooter";
-import Article from "../Article";
-import PopularNews from "../PopularNews";
+import Article from "./FooterArticle";
+import PopularNews from "./PopularNews";
 
 export default function Footer() {
     return (

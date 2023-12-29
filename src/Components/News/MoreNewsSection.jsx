@@ -1,6 +1,6 @@
-import NewsTopic from "../NewsTopic";
+import NewsTopic from "../News/NewsTopic";
 
-export default function Newslist() {
+export default function MoreNewsSection() {
     return (
         <section className="flex gap-4 items-start w-full my-8">
             <div className="w-3/4">
