@@ -7,6 +7,7 @@ import {
 import Logo from "../Logo";
 import Subfooter from "./Subfooter";
 import Article from "../Article";
+import PopularNews from "../PopularNews";
 
 export default function Footer() {
     return (
@@ -27,6 +28,7 @@ function Section1() {
         <section className="flex-1">
             <p>مشہور خبر</p>
             <hr className="my-3 border-zinc-800" />
+            <PopularNews />
         </section>
     );
 }
